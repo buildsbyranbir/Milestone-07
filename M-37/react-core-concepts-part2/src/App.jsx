@@ -1,6 +1,6 @@
 import Counter from './Counter';
 import './App.css'
-
+import Batsman from './Batsman'
 // Normal function declaration
 function App() {
   function handleClick() {
@@ -20,8 +20,8 @@ function App() {
     <>
   
       <h3>Vite + React</h3>
+      <Batsman></Batsman>
       <Counter></Counter>
-
 
       {/* normal function */}
       <button  onClick={handleClick}>Click Me</button>
